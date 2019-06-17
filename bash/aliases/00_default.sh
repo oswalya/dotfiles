@@ -41,6 +41,7 @@ alias g1="git diff HEAD~1"
 alias -- -='cd -'
 alias gc="gcloud"
 alias kc="kubectl"
+alias mdl="mdl -r '~MD013'"
 
 #colourise
 if [ -e /usr/bin/grc ]
