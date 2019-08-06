@@ -43,6 +43,7 @@ alias gc="gcloud"
 alias kc="kubectl"
 alias mdl="mdl -r '~MD013'"
 alias grep='ggrep'
+alias ghpr="python3 /Users/jessen-noak/workspace/scripts/open_prs.py oswalya $(cat ~/.github-token)"
 
 #colourise
 if [ -e /usr/bin/grc ]
