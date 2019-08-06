@@ -42,6 +42,7 @@ alias -- -='cd -'
 alias gc="gcloud"
 alias kc="kubectl"
 alias mdl="mdl -r '~MD013'"
+alias grep='ggrep'
 
 #colourise
 if [ -e /usr/bin/grc ]
