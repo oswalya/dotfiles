@@ -24,7 +24,8 @@
         gr = grep -Ii
         la = "!git config -l | grep alias | cut -c 7-"
         cp = cherry-pick
-        st = status -s
+        ss = status -s
+        st = status
         cl = clone
         co = commit
         ck = checkout
@@ -36,6 +37,7 @@
         r = reset
         a = add
         p = push
+        pl = pull
         r1 = reset HEAD^
         r2 = reset HEAD^^
         rh = reset --hard
