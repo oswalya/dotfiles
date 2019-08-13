@@ -1,6 +1,6 @@
 cask_args appdir: "/Users/jessen-noak/Applications"
 brew "kubectl"
-brew "terraform@0.11"
+brew "warrensbox/tap/tfswitch"
 brew "terraform-docs"
 brew "coreutils"
 brew "gawk"
