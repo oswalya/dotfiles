@@ -24,3 +24,7 @@ bind 'set completion-ignore-case on'
 
 export LANG=en_US.UTF-8
 
+# setup go path
+export GOPATH=$HOME/go
+PATH=$PATH:$GOPATH/bin
+
