@@ -28,3 +28,6 @@ export LANG=en_US.UTF-8
 export GOPATH=$HOME/go
 PATH=$PATH:$GOPATH/bin
 
+# setup ruby
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
