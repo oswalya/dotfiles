@@ -27,6 +27,8 @@ export LANG=en_US.UTF-8
 # setup go path
 export GOPATH=$HOME/go
 PATH=$PATH:$GOPATH/bin
+# always use the new go modules
+export "GO111MODULE=on"
 
 # setup ruby
 export PATH="$HOME/.rbenv/bin:$PATH"
