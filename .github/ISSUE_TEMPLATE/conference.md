@@ -1,13 +1,13 @@
 ---
-name: Conference Speaker
+name: Conference Speaker Approval
 about: Create a request for approval as a conference speaker
-title: ''
-labels: 'conference'
-assignees: ''
+title: 'Change me Title'
+labels: 'bug'
+assignees: 'oswalya'
 
 ---
 
-TBD 
+TBD
 
 # Approval steps
 
