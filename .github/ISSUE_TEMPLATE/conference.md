@@ -1,8 +1,8 @@
 ---
 name: Conference Speaker Approval
 about: Create a request for approval as a conference speaker
-title: 'Change me Title'
-labels: 'bug'
+title: '[Request] <Conference name here>'
+labels: 'outreach'
 assignees: 'oswalya'
 
 ---
