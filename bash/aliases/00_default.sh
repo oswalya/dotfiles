@@ -40,10 +40,12 @@ alias gu='git pull && git submodule update --init --recursive'
 alias g1="git diff HEAD~1"
 alias -- -='cd -'
 alias gc="gcloud"
-alias kc="kubectl"
 alias mdl="mdl -r '~MD013'"
 alias grep='ggrep'
 alias ghpr="python3 /Users/jessen-noak/workspace/scripts/open_prs.py oswalya $(cat ~/.github-token)"
+alias k=kubectl
+complete -F __start_kubectl k
+
 
 #colourise
 if [ -e /usr/bin/grc ]
